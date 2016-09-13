@@ -4,3 +4,8 @@ body {
   color: white;
   text-align: center;
 }
+
+h4 {
+  margin-left: 250px;
+  margin-right:250px;
+}
