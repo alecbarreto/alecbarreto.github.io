@@ -4,3 +4,8 @@ body {
   color: white;
   text-align: center;
 }
+
+p {
+  padding-left: 5;
+  padding-right: 5;
+}
