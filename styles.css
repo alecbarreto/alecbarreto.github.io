@@ -9,3 +9,8 @@ h4 {
   margin-left: 250px;
   margin-right: 250px;
 }
+
+a {
+  link: white;
+  visited: blue;
+}
