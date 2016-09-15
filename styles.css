@@ -17,3 +17,11 @@ a:link {
 a:visited {
   color: blue;
 }
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: purple;
+}
