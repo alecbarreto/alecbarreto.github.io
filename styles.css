@@ -3,6 +3,7 @@
   background-color: black;
   opacity: .9;
   position: static;
+  width: auto;
 }
 
 body {
