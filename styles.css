@@ -1,8 +1,13 @@
+head {
+  text-shadow: 10px 10px #000000;
+}
+
 body {
   font-family: : "Times New Roman", "Times", serif;
   line-height: 1.5;
   color: white;
   text-align: center;
+  text-shadow: 10px 10px #000000;
 }
 
 h3 {
