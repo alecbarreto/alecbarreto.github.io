@@ -1,5 +1,7 @@
 .box {
   text-align: center;
+  background-color: black;
+  opacity: .9;
 }
 
 body {
