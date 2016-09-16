@@ -2,6 +2,8 @@
   text-align: center;
   background-color: black;
   opacity: .9;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 body {
