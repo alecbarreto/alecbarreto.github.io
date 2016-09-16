@@ -1,5 +1,8 @@
-head {
-  text-shadow: 5px 5px 100px #000000;
+div {
+  width: 300px;
+  background-color: black;
+  border: 25px black;
+  padding: 25px;
 }
 
 body {
@@ -7,7 +10,6 @@ body {
   line-height: 1.5;
   color: white;
   text-align: center;
-  text-shadow: 5px 5px 100px #000000;
 }
 
 h3 {
