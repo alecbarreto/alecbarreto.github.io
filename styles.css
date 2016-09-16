@@ -1,9 +1,8 @@
 div {
-  width: 30px;
+  width: 50px;
   background-color: black;
   border: 25px black;
   padding: 25px;
-  align-content: center;
 }
 
 body {
