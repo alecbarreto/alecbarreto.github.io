@@ -17,15 +17,15 @@ h3 {
 }
 
 a:link {
-  color: white;
+  color: blue;
 }
 
 a:visited {
-  color: blue;
+  color: purple;
 }
 
 a:hover {
-  color: blue;
+  color: purple;
 }
 
 a:active {
