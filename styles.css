@@ -1,8 +1,10 @@
 div {
   width: 500px;
   background-color: black;
+  opacity: .5;
   border: 25px black;
   padding: 25px;
+  align-self: center;
 }
 
 body {
