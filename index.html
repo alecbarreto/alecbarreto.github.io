@@ -4,14 +4,14 @@
 
     <link href="styles.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
-      destroy = true;
-      function popup(arg) {
-        while (arg) {
+      function popup() {
+        destroy = true;
+        while (destroy) {
           alert("I have discovered the <script> tag. Google here I come.");
-          arg = false;
+          destroy = false;
         };
       }
-      window.setTimeOut(popup(destroy),5);
+      window.setTimeOut(popup(destroy),10);
     </script>
 
     <title>Alec's Weebsite</title>
