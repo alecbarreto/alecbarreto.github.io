@@ -5,10 +5,13 @@
     <link href="styles.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript">
       destroy = true;
-      while (destroy) {
-        alert("I have discovered the <script> tag. Google here I come.");
-        destroy = false;
+      function popup(arg) {
+        while (arg) {
+          alert("I have discovered the <script> tag. Google here I come.");
+          arg = false;
+        };
       }
+      window.setTimeOut(popup(destroy),5);
     </script>
 
     <title>Alec's Weebsite</title>
