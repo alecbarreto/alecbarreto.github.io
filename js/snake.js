@@ -1,4 +1,4 @@
-var mycanvas = document.getElementById('mycanvas');
+var mycanvas = document.getElementById('canvas');
 var ctx = mycanvas.getContext('2d');
 var snakeSize = 10;
 var w = 350;
