@@ -9,4 +9,5 @@ var snakeSize = 10;
 var food;
 
 ctx.fillStyle="#FF0000";
-ctx.fillRect(100,100,150,150);
+ctx.fillRect(0,0,15,15);
+ctx.fillRect(600,600,585,585);
