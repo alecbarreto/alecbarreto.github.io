@@ -10,4 +10,4 @@ var food;
 
 ctx.fillStyle="#FF0000";
 ctx.fillRect(0,0,20,20);
-ctx.fillRect(1380,780,20,20);
+ctx.fillRect(1180,780,20,20);
