@@ -17,5 +17,5 @@ function move(canvas,size) {
   x += size;
   canvas.fillRect(x,y,size,size);
 }
-setInterval(move(canvas,size),1000);
+window.setInterval(move,1000);
 move(ctx,20);
