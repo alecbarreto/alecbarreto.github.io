@@ -12,10 +12,10 @@ var food;
 ctx.fillStyle="#FF0000";
 ctx.fillRect(0,0,20,20);
 
-function move(canvas,size) {
+function move(canvas,size,x,y) {
   canvas.clearRect(x,y,size,size);
   x += size;
   canvas.fillRect(x,y,size,size);
 }
 window.setInterval(move,1000);
-move(ctx,20);
+move(ctx,20,x,y);
