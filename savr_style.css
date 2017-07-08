@@ -1,0 +1,33 @@
+.box {
+  text-align: center;
+  background-color: black;
+  opacity: .8;
+}
+
+body {
+  font-family: : "Georgia", "Times", serif;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-left: 275px;
+  margin-right: 275px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+/*a:hover {
+  color: purple;
+}
+
+a:active {
+  color: purple;
+}*/
