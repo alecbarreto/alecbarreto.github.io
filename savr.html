@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://get.mavo.io/mavo.min.js"></script>
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
     <link href="savr_style.css" type="text/css" rel="stylesheet" />
     <link rel="icon" href="/images/SAS.ico">
+
     <title>Savr</title>
   </head>
   <body>
-    <h1>Menu</h1>
-    <img src="http://www.vegancoach.com/images/vegan-food-pyramid-3.jpg" alt="image unavailable" style="width:250px;height:250px;">
-    <p> The above image is a prime example of how we at savr recommend you balance your meals instead of fucking killing the animals, the planet, and yourselves you god damn omni-scum </p>
-    <a href="js/jsfuck.js" type="text/javascript" target="_blank">Welp here we go</a>
+    <div mv-app id="mavoTest"></div>
+    <h1>Meal Name</h1>
+    <!-- TODO:  Make the picture a button that expands the dietary information -->
+    <img src="http://www.vegancoach.com/images/vegan-food-pyramid-3.jpg" alt="image unavailable" style="width:350px;height:250px;">
+
+    <script>
+      var nutritionalInfo = new Array();
+      var facts = function(cals, veg, vt, gf, lf) {
+        nutritionalInfo.push(cals,veg,vt,gf,lf);
+      }
+      facts(500,"Yes","Yes","No","Yes");
+      document.write("<br>Calories: " + nutritionalInfo[0]);
+      document.write("<br>Vegan: " + nutritionalInfo[1]);
+      document.write("<br>Vegetarian: " + nutritionalInfo[2]);
+      document.write("<br>Gluten-Free: " + nutritionalInfo[3]);
+      document.write("<br>Lactose-Free: " + nutritionalInfo[4]);
+    </script>
+
+    <p>This will be a short description of the meal</p>
+    <!-- <a href="js/jsfuck.html" type="text/javascript" target="_blank">Hey Vsauce...</a> -->
   </body>
 </html>

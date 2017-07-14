@@ -5,11 +5,13 @@
 }
 
 body {
-  background-color: black;
+  background-color: #077900;
   font-family: "Georgia", "Times", serif;
   line-height: 1.5;
   color: white;
   text-align: center;
+  padding-left: 400px;
+  padding-right: 400px
 }
 
 /*h1 {
@@ -18,17 +20,17 @@ body {
 }*/
 
 a:link {
-  color: blue;
+  color: white;
 }
 
 a:visited {
-  color: purple;
+  color: white;
 }
 
-/*a:hover {
-  color: purple;
+a:hover {
+  color: #FF00BD;
 }
 
-a:active {
+/*a:active {
   color: purple;
 }*/
