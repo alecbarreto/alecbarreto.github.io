@@ -15,17 +15,13 @@
     <img src="http://www.vegancoach.com/images/vegan-food-pyramid-3.jpg" alt="image unavailable" style="width:350px;height:250px;">
 
     <script>
-      var nutritionalInfo = new Array();
       var facts = function(cals, veg, vt, gf, lf) {
-        nutritionalInfo.push(cals,veg,vt,gf,lf);
-        document.write(
-        "<br>Calories: " + nutritionalInfo[0] +
-        "<br>Vegan: ") + nutritionalInfo[1] +
-        "<br>Vegetarian: " + nutritionalInfo[2] +
-        "<br>Gluten-Free: " + nutritionalInfo[3] +
-        "<br>Lactose-Free: " + nutritionalInfo[4]);
+        document.write("<br>Calories: " + cals +
+        "<br>Vegan: " + veg +
+        "<br>Vegetarian: " + vt +
+        "<br>Gluten-Free: " + gf +
+        "<br>Lactose-Free: " + lf);
       }
-
       facts(500,"Yes","Yes","No","Yes");
     </script>
 
