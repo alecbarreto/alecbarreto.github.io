@@ -18,13 +18,15 @@
       var nutritionalInfo = new Array();
       var facts = function(cals, veg, vt, gf, lf) {
         nutritionalInfo.push(cals,veg,vt,gf,lf);
+        document.write(
+        "<br>Calories: " + nutritionalInfo[0] +
+        "<br>Vegan: ") + nutritionalInfo[1] +
+        "<br>Vegetarian: " + nutritionalInfo[2] +
+        "<br>Gluten-Free: " + nutritionalInfo[3] +
+        "<br>Lactose-Free: " + nutritionalInfo[4]);
       }
+
       facts(500,"Yes","Yes","No","Yes");
-      document.write("<br>Calories: " + nutritionalInfo[0]);
-      document.write("<br>Vegan: " + nutritionalInfo[1]);
-      document.write("<br>Vegetarian: " + nutritionalInfo[2]);
-      document.write("<br>Gluten-Free: " + nutritionalInfo[3]);
-      document.write("<br>Lactose-Free: " + nutritionalInfo[4]);
     </script>
 
     <p>This will be a short description of the meal</p>
