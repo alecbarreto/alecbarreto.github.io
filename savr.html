@@ -6,26 +6,28 @@
     <link href="savr_style.css" type="text/css" rel="stylesheet" />
     <link rel="icon" href="/images/SAS.ico">
 
+    <div mv-app id="mavoTest"></div>
+
     <title>Savr</title>
   </head>
   <body>
-    <div mv-app id="mavoTest"></div>
-    <h1>Meal Name</h1>
+    <h1>Lentil Soup</h1>
     <!-- TODO:  Make the picture a button that expands the dietary information -->
-    <img src="http://www.vegancoach.com/images/vegan-food-pyramid-3.jpg" alt="image unavailable" style="width:350px;height:250px;">
+    <img src="http://www.recipetineats.com/wp-content/uploads/2017/03/Lentil-Soup-5.jpg" alt="image unavailable" style="width:350px;height:250px;">
 
     <script>
       var facts = function(cals, veg, vt, gf, lf) {
-        document.write("<br>Calories: " + cals +
-        "<br>Vegan: " + veg +
-        "<br>Vegetarian: " + vt +
-        "<br>Gluten-Free: " + gf +
-        "<br>Lactose-Free: " + lf);
+        document.write(
+          "<br>Calories: " + cals +
+          "<br>Vegan: " + veg +
+          "<br>Vegetarian: " + vt +
+          "<br>Gluten-Free: " + gf +
+          "<br>Lactose-Free: " + lf);
       }
       facts(500,"Yes","Yes","No","Yes");
     </script>
 
-    <p>This will be a short description of the meal</p>
+    <p>It's Lentil Soup. It's fucking delicious.</p>
     <!-- <a href="js/jsfuck.html" type="text/javascript" target="_blank">Hey Vsauce...</a> -->
   </body>
 </html>
