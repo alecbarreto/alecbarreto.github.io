@@ -6,7 +6,12 @@
     <link href="savr_style.css" type="text/css" rel="stylesheet" />
     <link rel="icon" href="/images/SAS.ico">
 
-    <div mv-app id="mavoTest"></div>
+    <div mv-app="storageTest" mv-storage="https://github.com/alecbarreto">
+      <label>
+		    Email:
+		    <input type="email" property="email"/>
+	    </label>
+    </div>
 
     <title>Savr</title>
   </head>
@@ -16,18 +21,24 @@
     <img src="http://www.recipetineats.com/wp-content/uploads/2017/03/Lentil-Soup-5.jpg" alt="image unavailable" style="width:350px;height:250px;">
 
     <script>
-      var facts = function(cals, veg, vt, gf, lf) {
+      var facts = function(cals, veg, vt, gf, lf, score) {
         document.write(
           "<br>Calories: " + cals +
           "<br>Vegan: " + veg +
           "<br>Vegetarian: " + vt +
           "<br>Gluten-Free: " + gf +
-          "<br>Lactose-Free: " + lf);
+          "<br>Lactose-Free: " + lf +
+          "<br>Rating: " + score + "/5");
       }
-      facts(500,"Yes","Yes","No","Yes");
+      facts(500,"Yes","Yes","No","Yes",5);
     </script>
 
     <p>It's Lentil Soup. It's fucking delicious.</p>
+    <form action="index.html" method="post">
+      Rating (1-5):<br>
+      <input type="text" name="username"><br>
+      <input type="submit">
+    </form>
     <!-- <a href="js/jsfuck.html" type="text/javascript" target="_blank">Hey Vsauce...</a> -->
   </body>
 </html>
